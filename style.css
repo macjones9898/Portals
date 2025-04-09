@@ -1,0 +1,81 @@
+body {
+  font-family: monospace;
+  text-align: center;
+  padding: 40px;
+  color: red;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+}
+
+body.homepage {
+  background-color: #182481;
+  font-family: 'Cinzel', serif;
+  color: red;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 40px;
+  text-align: center;
+}
+
+body.homepage p {
+  margin: 10px 0;
+}
+
+.portal-options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+body.silver {
+  background: radial-gradient(circle, #ffffff, #dcdcdc, #b0b0b0, #808080);
+  color: black;
+}
+
+body.silver a {
+  color: red;
+}
+
+body.gold {
+  background: radial-gradient(circle, #ffd700, #b8860b);
+  color: black;
+}
+
+body.gold a {
+  color: red;
+}
+
+.portal-image {
+  width: 100%;
+  max-width: 400px;
+  max-height: 300px;
+  margin: 20px auto;
+}
+
+.left-align {
+  text-align: left;
+  margin-right: auto;
+}
+
+.right-align {
+  text-align: right;
+  margin-left: auto;
+}
