@@ -79,3 +79,26 @@ body.gold a {
   text-align: right;
   margin-left: auto;
 }
+body.silver-room {
+  background: radial-gradient(circle at center, #d6d6ff, #8787a3, #2f2f4f);
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+body.gold-room {
+  background: radial-gradient(circle at center, #ffd700, #b8860b, #5c4500);
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+body.brass-door {
+  background-color: black;
+  color: #8B4513;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  padding: 40px;
+  min-height: 100vh;
+}
